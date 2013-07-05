@@ -24,15 +24,15 @@ Gem::Specification.new do |s|
     "README.rdoc",
     "Rakefile",
     "VERSION",
-    "ipaddress.gemspec",
+    "easy-aws-cli.gemspec",
     "lib/aws-console.rb",
     "lib/check_poller.rb",
     "config/config.yml"
   ]
-  s.homepage = %q{http://github.com/bluemonk/ipaddress}
+  s.homepage = %q{https://github.com/Giannandrea/easy-aws-cli}
   s.require_paths = ["lib"]
-  s.rubygems_version = %q{1.6.2}
-  s.summary = %q{IPv4/IPv6 addresses manipulation library}
+  s.rubygems_version = %q{0.1.1}
+  s.summary = %q{easy-aws-cli command line tool for amazon aws}
 
   if s.respond_to? :specification_version then
     s.specification_version = 3
