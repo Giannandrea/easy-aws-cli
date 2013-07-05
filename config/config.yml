@@ -1,0 +1,3 @@
+access_key_id: KEY
+secret_access_key: KEY
+:ec2_endpoint: ec2.eu-west-1.amazonaws.com
