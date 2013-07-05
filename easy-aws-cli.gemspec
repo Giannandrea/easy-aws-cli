@@ -20,21 +20,14 @@ Gem::Specification.new do |s|
   ]
   s.files = [
     ".document",
-    "CHANGELOG.rdoc",
     "LICENSE",
     "README.rdoc",
     "Rakefile",
     "VERSION",
     "ipaddress.gemspec",
-    "lib/ipaddress.rb",
-    "lib/ipaddress/ipv4.rb",
-    "lib/ipaddress/ipv6.rb",
-    "lib/ipaddress/prefix.rb",
-    "test/ipaddress/ipv4_test.rb",
-    "test/ipaddress/ipv6_test.rb",
-    "test/ipaddress/prefix_test.rb",
-    "test/ipaddress_test.rb",
-    "test/test_helper.rb"
+    "lib/aws-console.rb",
+    "lib/check_poller.rb",
+    "config/config.yml"
   ]
   s.homepage = %q{http://github.com/bluemonk/ipaddress}
   s.require_paths = ["lib"]
